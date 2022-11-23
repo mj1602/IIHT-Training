@@ -1,0 +1,215 @@
+{\rtf1\ansi\deff0\adeflang1025
+{\fonttbl{\f0\froman\fprq2\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset2 Symbol;}{\f2\fswiss\fprq2\fcharset0 Arial;}{\f3\fnil\fprq2\fcharset0 Microsoft YaHei;}{\f4\fnil\fprq2\fcharset0 Arial;}{\f5\fswiss\fprq0\fcharset128 Arial;}}
+{\colortbl;\red0\green0\blue0;\red255\green255\blue0;\red128\green128\blue128;}
+{\stylesheet{\s0\snext0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393 Default;}
+{\s15\sbasedon0\snext16\sb240\sa120\keepn\hich\af3\dbch\af4\afs28\loch\f2\fs28 Heading;}
+{\s16\sbasedon0\snext16\sb0\sa120 Text body;}
+{\s17\sbasedon16\snext17\sb0\sa120\dbch\af5 List;}
+{\s18\sbasedon0\snext18\sb120\sa120\noline\i\dbch\af5\afs24\ai\fs24 Caption;}
+{\s19\sbasedon0\snext19\noline\dbch\af5 Index;}
+}{\info{\creatim\yr2022\mo11\dy23\hr20\min12}{\revtim\yr0\mo0\dy0\hr0\min0}{\printim\yr0\mo0\dy0\hr0\min0}{\comment OpenOffice}{\vern41110}}\deftab709
+
+{\*\pgdsctbl
+{\pgdsc0\pgdscuse195\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\pgdscnxt0 Default;}}
+\formshade\paperh16838\paperw11906\margl1134\margr1134\margt1134\margb1134\sectd\sbknone\sectunlocked1\pgndec\pgwsxn11906\pghsxn16838\marglsxn1134\margrsxn1134\margtsxn1134\margbsxn1134\ftnbj\ftnstart1\ftnrstcont\ftnnar\aenddoc\aftnrstcont\aftnstart1\aftnnrlc
+\pgndec\pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+Q-1. Write an SQL query to fetch \'93FIRST_NAME\'94 from Worker table using the alias name as <WORKER_NAME>.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     FIRST_NAME AS WORKER_NAME\line FROM\line     Worker;\line }{\rtlch \ltrch\loch
+\line Q-2. Write an SQL query to fetch \'93FIRST_NAME\'94 from Worker table in upper case.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     UPPER(FIRST_NAME)\line FROM\line     worker;\line }{\rtlch \ltrch\loch
+\line Q-3. Write an SQL query to fetch unique values of DEPARTMENT from Worker table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT DISTINCT\line     DEPARTMENT\line FROM\line     Worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-4. Write an SQL query to print the first three characters of  FIRST_NAME from Worker table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     SUBSTRING(FIRST_NAME, 1, 3)\line FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-5. Write an SQL query to find the position of the alphabet (\'91a\'92) in the first name column \'91Amitabh\'92 from Worker table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     POSITION('a' IN FIRST_NAME)\line FROM\line     worker\line WHERE\line     FIRST_NAME = 'AMITABH';}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-6. Write an SQL query to print the FIRST_NAME from Worker table after removing white spaces from the right side.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     RTRIM(FIRST_NAME)\line FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-7. Write an SQL query to print the DEPARTMENT from Worker table after removing white spaces from the left side.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     LTRIM(DEPARTMENT)\line FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-8. Write an SQL query that fetches the unique values of DEPARTMENT from Worker table and prints its length.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT DISTINCT\line     DEPARTMENT, LENGTH(DEPARTMENT)\line FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-9. Write an SQL query to print the FIRST_NAME from Worker table after replacing \'91a\'92 with \'91A\'92.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     REPLACE(FIRST_NAME, 'a', 'A')\line FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line  Q-10.Write an SQL query to print the FIRST_NAME and LAST_NAME from Worker table into a single column COMPLETE_NAME. A space char should separate them.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     CONCAT(FIRST_NAME, ' ', LAST_NAME) AS COMPLETE_NAME\line FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-11. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line ORDER BY FIRST_NAME;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-12. Write an SQL query to print all Worker details from the Worker table order by FIRST_NAME Ascending and DEPARTMENT Descending.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line ORDER BY FIRST_NAME, DEPARTMENT desc;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-13. Write an SQL query to print details for Workers with the first name as \'93Vipul\'94 and \'93Satish\'94 from Worker table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line where FIRST_NAME ='Vipul' or FIRST_NAME ='Satish';}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-14. Write an SQL query to print details of workers excluding first names, \'93Vipul\'94 and \'93Satish\'94 from Worker table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     NOT FIRST_NAME = 'Vipul'\line         AND NOT FIRST_NAME = 'Satish';}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-15. Write an SQL query to print details of Workers with DEPARTMENT name as \'93Admin\'94.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     department = 'Admin';}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-16. Write an SQL query to print details of the Workers whose FIRST_NAME contains \'91a\'92.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     FIRST_NAME LIKE '%a%'}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-17. Write an SQL query to print details of the Workers whose FIRST_NAME ends with \'91a\'92.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     FIRST_NAME LIKE '%a'}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393\pagebb{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-18. Write an SQL query to print details of the Workers whose FIRST_NAME ends with \'91h\'92 and contains six alphabets.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     FIRST_NAME LIKE '_____h'}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-19. Write an SQL query to print details of the Workers whose SALARY lies between 100000 and 500000.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     SALARY BETWEEN 100000 AND 500000;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-20. Write an SQL query to print details of the Workers who have joined in Feb\'922014.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     YEAR(JOINING_DATE) = '2014'\line         AND MONTH(JOINING_DATE) = '2';}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-21. Write an SQL query to fetch the count of employees working in the department \'91Admin\'92.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     COUNT(WORKER_ID)\line FROM\line     worker\line WHERE\line     DEPARTMENT = 'Admin';}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-22. Write an SQL query to fetch worker names with salaries >= 50000 and <= 100000.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     SALARY BETWEEN 100000 AND 500000;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393\pagebb{\chcbpat2\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-23. Write an SQL query to fetch the no. of workers for each department in the descending order.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     COUNT(WORKER_ID) AS DEPT_COUNT\line FROM\line     worker\line GROUP BY DEPARTMENT\line ORDER BY DEPT_COUNT DESC;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-24. Write an SQL query to print details of the Workers who are also Managers.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     WORKER_ID IN (SELECT \line             WORKER_REF_ID\line         FROM\line             title\line         WHERE\line             WORKER_TITLE = 'Manager');}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-25. Write an SQL query to fetch duplicate records having matching data in some fields of a table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT\line     *\line FROM\line     bonus order by WORKER_REF_ID;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-26. Write an SQL query to show only odd rows from a table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     worker_id % 2 != 0;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-27. Write an SQL query to show only even rows from a table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     *\line FROM\line     worker\line WHERE\line     worker_id % 2 = 0;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393\pagebb{\rtlch \ltrch\loch
+\line Q-28. Write an SQL query to clone a new table from another table.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+CREATE TABLE worker_1 AS SELECT * FROM\line     worker;}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-29. Write an SQL query to fetch intersecting records of two tables.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT DISTINCT\line     worker_id, first_name\line FROM\line     worker\line         INNER JOIN\line     bonus\line WHERE\line     (WORKER_ID = worker_ref_id);}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+\line Q-30. Write an SQL query to show records from one table that another table does not have.}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\rtlch \ltrch\loch
+}
+\par \pard\plain \s0\nowidctlpar{\*\hyphen2\hyphlead2\hyphtrail2\hyphmax0}\cf0\kerning1\hich\af6\langfe2052\dbch\af4\afs24\lang1081\loch\f0\fs24\lang16393{\chcbpat2\rtlch \ltrch\loch
+SELECT \line     worker_id\line FROM\line     worker\line WHERE\line     worker_id NOT IN (SELECT DISTINCT\line             worker_ref_id\line         FROM\line             bonus);}
+\par }
